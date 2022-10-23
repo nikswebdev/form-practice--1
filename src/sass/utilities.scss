@@ -1,0 +1,47 @@
+@import '../index.scss';
+
+//padding
+.p_xs {
+  padding: 3rem;
+}
+
+//margin
+.my_s {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mt_s {
+  margin-top: 1rem;
+}
+
+.mt_l {
+  margin-top: 3rem;
+}
+
+.mb_l {
+  margin-bottom: 3rem;
+}
+.mr_m {
+  margin-right: 2rem;
+}
+
+.mr_s {
+  margin-right: 1rem;
+}
+
+//flex-gap
+.fl-gap-s {
+  gap: 1rem;
+}
+
+//color
+.bg-pink {
+  background-color: $pink;
+}
+.text--white {
+  color: $white;
+}
+.text-dark {
+  color: $darkBlue;
+}

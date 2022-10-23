@@ -1,0 +1,15 @@
+@import '../../index.scss';
+
+.btn {
+  padding: 1rem;
+  border-radius: 1rem;
+
+  &__green {
+    background-color: $green;
+    transition: all 0.3s;
+
+    &:hover {
+      background-color: $green-hover;
+    }
+  }
+}

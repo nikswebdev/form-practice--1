@@ -1,0 +1,36 @@
+@import '../../index.scss';
+@import '../../sass/utilities.scss';
+@import '../../sass/text.scss';
+
+.form {
+  background-color: $darkBlue;
+  border-radius: 1rem;
+  font-size: $text-primary;
+  display: flex;
+  flex-direction: column;
+
+  &__container {
+    max-width: 50rem;
+    margin: 6.25% auto;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+  }
+
+  &__details {
+    display: flex;
+    flex-direction: column;
+
+    & input {
+      border-radius: 0.5rem;
+      padding: 0.5rem;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
